@@ -1,5 +1,49 @@
---burgundy: #70191D;
---chinese-red: #970A12;
---lunar-yellow: #FECD6D;
---cobalt: #5686BB;
---white: #FFF8F2;
+:root{
+    --burgundy:#70191D;
+    --chinese-red:#970A12;
+    --lunar-yellow:#FECD6D;
+    --cobalt:#5686BB;
+    --white:#FFF8F2;
+}
+
+body{
+    background: var(--cobalt);
+    color: var(--white);
+}
+
+/* Hero */
+.hero{
+    padding:70px 10%;
+}
+
+/* Story Box */
+.story-box{
+    margin-top:50px;
+    background:rgba(255,248,242,0.95);
+    color:#333;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 8px 25px rgba(0,0,0,.15);
+    border-left:8px solid var(--lunar-yellow);
+}
+
+/* Feature Cards */
+.card{
+    background:rgba(255,255,255,0.95);
+    color:#333;
+    padding:25px;
+    border-radius:18px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+/* Design Section */
+#design{
+    background:var(--burgundy);
+    color:white;
+}
+
+/* Product Section */
+#product{
+    background:var(--chinese-red);
+    color:white;
+}
