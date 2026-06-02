@@ -4,3 +4,7 @@
     margin-top:20px;
     text-shadow:2px 2px 8px rgba(0,0,0,.2);
 }
+nav{
+    background:rgba(112,25,29,0.95);
+    backdrop-filter: blur(10px);
+}
